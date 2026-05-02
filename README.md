@@ -1,6 +1,6 @@
 # 🌍 Wanderlust — Full Stack Travel Listing Platform
 
-Wanderlust is a full-stack MERN web application inspired by Airbnb, where users can explore, create, and manage listings for villas, resorts, and restaurants.
+Wanderlust is a full-stack MERN web application, where users can explore, create, and manage listings for villas, resorts, and restaurants.
 
 The platform provides a seamless experience to discover travel destinations with pricing, location, maps, and user-generated content.
 
