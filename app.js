@@ -97,9 +97,13 @@ app.get("/demouser", async (req,res)=>{
           
 })
 
-app.use("/", listingRoute);
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
+
+app.use("/listings", listingRoute);
 app.use("/listings/:id/reviews", reviewRoute);
-app.use("/",userRoute);
+app.use("/", userRoute);
 
 app.use((req,res,next)=>{
     next(new ExpressError(404 , "Page not found"));
