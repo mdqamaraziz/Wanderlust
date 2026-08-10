@@ -97,7 +97,7 @@ app.get("/demouser", async (req,res)=>{
           
 })
 
-app.use("/listings", listingRoute);
+app.use("/", listingRoute);
 app.use("/listings/:id/reviews", reviewRoute);
 app.use("/",userRoute);
 
